@@ -9591,12 +9591,14 @@ figcaption {
   display: none; }
 
 .banner-details-wrapper-sticky .thumbnail img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
+  width: 340px;
+  height: 190px;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 170px;
   border: 5px solid #32363b;
   box-shadow: var(--shadow-1);
-  object-fit: cover; }
+  object-fit: contain; }
 
 .banner-details-wrapper-sticky .banner-title-area .title {
   color: #ffffff;
@@ -10791,7 +10793,8 @@ div#featured-project-carousel {
     border-radius: 10px;
     padding: 3px;
     background: #212428;
-    box-shadow: inset 8px 8px 16px #00000075,  inset -8px -8px 16px #383e4575; }
+    box-shadow: inset 8px 8px 16px #00000075, 
+ inset -8px -8px 16px #383e4575; }
     .progress-charts .progress .progress-bar {
       overflow: visible;
       position: relative;
